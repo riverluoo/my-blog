@@ -1,0 +1,35 @@
+---
+title: 环桐乡
+date: 2018-11-09
+layout: post
+---
+
+
+
+- 一位小伙伴已经到啦
+
+![](https://riverluooo.oss-cn-beijing.aliyuncs.com/img/20181115224459.jpeg)
+
+## 唯一一张照片还被  虚化了
+
+-  第二位是我
+
+![](https://riverluooo.oss-cn-beijing.aliyuncs.com/img/20181115224538.jpg)
+
+## 当然要拍照啦
+
+![](https://riverluooo.oss-cn-beijing.aliyuncs.com/img/20181115224557.jpeg)
+
+## 官方及时
+
+![](https://riverluooo.oss-cn-beijing.aliyuncs.com/img/20181115224627.jpeg)
+
+## 完善证书
+
+![](https://riverluooo.oss-cn-beijing.aliyuncs.com/img/20181115224647.jpg)
+
+## 码表时间
+
+![](https://riverluooo.oss-cn-beijing.aliyuncs.com/img/20181115224716.jpeg)
+
+### 是从嘉兴骑到桐乡的，到达时，比赛就快开始了， 就没有拍多少照片
