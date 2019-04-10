@@ -18,6 +18,10 @@ layout: post
 
 - [定时任务使用](https://www.cnblogs.com/yihuihui/p/9416102.html)
 
+### 关于 spring 定时任务
+
+
+
 ### 启动异步调用
 
 ```java
@@ -42,10 +46,12 @@ protected void addTotalFlow() {
 
 这样方式，每次执行都会启一个新的线程去执行，操作系统有最大线程数的限制<br>
 不加处理的，会导致进程挂掉。
+
 ### 查询当前整个系统已用的线程或进程数
-~~~shell
+
+```shell
 pstree -p | wc -l
-~~~
+```
 
 ### 多线程的方式
 
@@ -61,4 +67,3 @@ public AsyncTaskExecutor asyncTaskExecutor() {
     return executor;
 }
 ```
-
