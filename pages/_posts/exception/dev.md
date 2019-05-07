@@ -12,20 +12,24 @@ layout: post
 ![](https://riverluooo.oss-cn-beijing.aliyuncs.com/img/20190506143633.png)
 
 - 有最大进程数限制
-  ![](https://riverluooo.oss-cn-beijing.aliyuncs.com/img/20190507105938.png)
-- 解决方式
-  临时解决
+
+ ![](https://riverluooo.oss-cn-beijing.aliyuncs.com/img/20190507105938.png)
+
+解决方式
+
+- 临时解决
+
+- [一次受限于操作系统进程数的 OOM](https://www.cnblogs.com/alipayhutu/p/3298360.html)
 
 ```
  ulimit -u 10000
 ```
 
-- [一次受限于操作系统进程数的 OOM](https://www.cnblogs.com/alipayhutu/p/3298360.html)
+- 永久解决
 
-永久解决
+- [linux 修改 max user processes limits](https://blog.csdn.net/bbaiggey/article/details/51004817)
 
 ```
 /etc/security/limits.d/90-nproc.conf
 ```
 
-- [linux 修改 max user processes limits](https://blog.csdn.net/bbaiggey/article/details/51004817)
