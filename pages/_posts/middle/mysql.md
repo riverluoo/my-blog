@@ -1,5 +1,5 @@
 ---
-title: nginx
+title: mysql
 date: 2019-04-03
 layout: post
 ---
@@ -170,7 +170,7 @@ CONCAT( DATE_FORMAT( NOW( ), '%Y' ), '-', MONTH ( consumption.create_time ) )
 - 周结束
   周开始加 6 天
 
-# 3: 索引
+# 3: explan
 
 要了解索引 先来了解下 explan
 
@@ -254,3 +254,18 @@ null : 执行时不用访问表或者索引，如从一个索引列里选取最�
   e. Using join buffer : 在获取连接条件时 没有使用索引，并且需要连接缓冲区来存储中间结果，如果出现这个值，可能需要添加索引来改进
   f. Impossible where : where语句会导致没有符合条件的行
   g. Select tables optimized away : 仅通过使用索引，可以仅从聚合函数中返回一行
+
+
+# 4: 索引
+索引是一种特殊的文件，会占用物理存储空间
+
+a. 普通索引
+
+b. 唯一索引
+
+c. 全文索引
+
+d. 单列索引，多列索引
+
+e. 组合索引（最左前缀）
+
