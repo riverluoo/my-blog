@@ -269,3 +269,21 @@ d. 单列索引，多列索引
 
 e. 组合索引（最左前缀）
 
+# 5: 修改数据库和表字符集
+开发中遇到了不同表数据库字段的字符集编码方式不一致，导致部分索引失效的问题
+涉及的表众多，采用批量修改的方式
+~~~sql
+SELECT
+	 CONCAT('alter table ',a.table_name,' convert to character set utf8mb4 collate utf8mb4_general_ci;')
+FROM
+	( SELECT table_name FROM information_schema.`TABLES` WHERE TABLE_SCHEMA = 'lng2' ) a;
+~~~
+![](https://riverluooo.oss-cn-beijing.aliyuncs.com/img/20190510140251.png)
+
+~~~sql
+alter table appointment convert to character set utf8mb4 collate utf8mb4_general_ci;
+alter table book convert to character set utf8mb4 collate utf8mb4_general_ci;
+alter table muser convert to character set utf8mb4 collate utf8mb4_general_ci;
+~~~
+
+
