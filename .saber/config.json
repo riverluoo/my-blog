@@ -1,1 +1,1 @@
-{"siteConfig":{"author":"RiverLuoo","title":"落在低处"},"themeConfig":{"nav":[{"text":"首页","link":"/"},{"text":"你好啊","link":"/about.html"}],"social":{"twitter":"riverluoo","github":"riverluoo","rss":false}}}
+{"siteConfig":{"url":"https://example.com","author":"RiverLuoo","title":"落在低处"},"themeConfig":{"nav":[{"text":"首页","link":"/"},{"text":"你好啊","link":"/about.html"}],"social":{"twitter":"riverluoo","github":"riverluoo","rss":false}}}

@@ -1,6 +1,7 @@
 theme: tailsaw
 
 siteConfig:
+  url: https://example.com
   author: RiverLuoo
   title: 落在低处
 
